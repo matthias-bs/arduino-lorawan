@@ -251,8 +251,8 @@ const uint8_t PAYLOAD_SIZE = 51;
 // Arduino IDE: Tools->Core Debug Level: "Debug|Verbose"
 // or
 // set CORE_DEBUG_LEVEL in BresserWeatherSensorTTNCfg.h
-    #define DEBUG_PRINTF(...) { log_d(__VA_ARGS__); }
-    #define DEBUG_PRINTF_TS(...) { log_d(__VA_ARGS__); }
+#define DEBUG_PRINTF(...) { log_d(__VA_ARGS__); }
+#define DEBUG_PRINTF_TS(...) { log_d(__VA_ARGS__); }
 
 // Downlink messages
 // ------------------
